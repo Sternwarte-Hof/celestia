@@ -1,0 +1,15 @@
+[package]
+name = "celestia-zed-extension"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Tobias Feigel <info@feigel.it>"]
+repository = "https://github.com/fits-ki/celestia"
+description = "Zed Extension for Celestia Authoring Formats"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+sha2 = "=0.10.9"
+zed_extension_api = "=0.2.0"

@@ -1,0 +1,3 @@
+name = "Celestia Star Name Database"
+grammar = "celestia_record_data"
+path_suffixes = ["starnames.dat"]

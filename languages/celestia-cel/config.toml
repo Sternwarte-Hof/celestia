@@ -1,0 +1,3 @@
+name = "Celestia Legacy CEL Script"
+grammar = "celestia_legacy_cel"
+path_suffixes = ["cel"]

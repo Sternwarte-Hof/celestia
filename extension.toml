@@ -1,0 +1,83 @@
+authors = ["Tobias Feigel <info@feigel.it>"]
+description = "Celestia authoring formats support for Zed"
+id = "celestia"
+languages = [
+    "languages/celestia-config",
+    "languages/celestia-ssc",
+    "languages/celestia-stc",
+    "languages/celestia-dsc",
+    "languages/celestia-destinations",
+    "languages/celestia-favorites",
+    "languages/celestia-asterisms",
+    "languages/celestia-ctx",
+    "languages/celestia-cel",
+    "languages/celestia-starnames",
+    "languages/celestia-boundaries",
+    "languages/celestia-xyz",
+    "languages/celestia-xyzv",
+    "languages/celestia-q",
+    "languages/celestia-celx",
+    "languages/celestia-lua-module",
+]
+name = "Celestia"
+repository = "https://github.com/fits-ki/celestia"
+schema_version = 1
+version = "0.1.0"
+
+[grammars.celestia_legacy_cel]
+path = "tree-sitter-celestia-legacy-cel"
+repository = "https://github.com/fits-ki/tree-sitter-celestia-legacy-cel"
+rev = "e6875a205944e1db2208d15bdc34e884c4b8f3f4"
+
+[grammars.celestia_property_list]
+path = "tree-sitter-celestia-property-list"
+repository = "https://github.com/fits-ki/tree-sitter-celestia-property-list"
+rev = "39385ab17a799f0d611dee18223c32bbf3c4dab8"
+
+[grammars.celestia_record_data]
+path = "tree-sitter-celestia-record-data"
+repository = "https://github.com/fits-ki/tree-sitter-celestia-record-data"
+rev = "1e1dc1d83c48a09bcd206d90c3d8f28becbc1e98"
+
+[grammars.lua]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-lua"
+rev = "d76023017f7485eae629cb60d406c7a1ca0f40c9"
+
+[language_servers.celestia-lsp]
+languages = [
+    "Celestia Configuration",
+    "Celestia Solar System Catalog",
+    "Celestia Star Catalog",
+    "Celestia Deep Sky Catalog",
+    "Celestia Destinations Metadata",
+    "Celestia Favorites Metadata",
+    "Celestia Asterism Metadata",
+    "Celestia Virtual-Texture Descriptor",
+    "Celestia Legacy CEL Script",
+    "Celestia Star Name Database",
+    "Celestia Constellation Boundaries",
+    "Celestia Sampled Position XYZ",
+    "Celestia Sampled Position XYZV",
+    "Celestia Sampled Orientation",
+    "Celestia CELX Script",
+    "Celestia Lua Module",
+]
+name = "Celestia LSP"
+
+[language_servers.celestia-lsp.language_ids]
+"Celestia Asterism Metadata" = "celestia-asterisms"
+"Celestia CELX Script" = "celestia-celx"
+"Celestia Configuration" = "celestia-config"
+"Celestia Constellation Boundaries" = "celestia-boundaries"
+"Celestia Deep Sky Catalog" = "celestia-dsc"
+"Celestia Destinations Metadata" = "celestia-destinations"
+"Celestia Favorites Metadata" = "celestia-favorites"
+"Celestia Legacy CEL Script" = "celestia-cel"
+"Celestia Lua Module" = "celestia-lua-module"
+"Celestia Sampled Orientation" = "celestia-q"
+"Celestia Sampled Position XYZ" = "celestia-xyz"
+"Celestia Sampled Position XYZV" = "celestia-xyzv"
+"Celestia Solar System Catalog" = "celestia-ssc"
+"Celestia Star Catalog" = "celestia-stc"
+"Celestia Star Name Database" = "celestia-starnames"
+"Celestia Virtual-Texture Descriptor" = "celestia-ctx"

@@ -1,0 +1,3 @@
+name = "Celestia Sampled Position XYZV"
+grammar = "celestia_record_data"
+path_suffixes = ["xyzv"]
