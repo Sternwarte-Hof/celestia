@@ -1,0 +1,3 @@
+name = "Celestia Configuration"
+grammar = "celestia_property_list"
+path_suffixes = ["cfg"]

@@ -1,0 +1,3 @@
+name = "Celestia Asterism Metadata"
+grammar = "celestia_property_list"
+path_suffixes = ["fab", "asterisms.dat"]

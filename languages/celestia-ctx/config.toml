@@ -1,0 +1,3 @@
+name = "Celestia Virtual-Texture Descriptor"
+grammar = "celestia_property_list"
+path_suffixes = ["ctx"]

@@ -1,0 +1,3 @@
+name = "Celestia Constellation Boundaries"
+grammar = "celestia_record_data"
+path_suffixes = ["boundaries.dat"]

@@ -1,0 +1,3 @@
+name = "Celestia Destinations Metadata"
+grammar = "celestia_property_list"
+path_suffixes = ["destinations.cel"]
